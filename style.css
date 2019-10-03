@@ -14,6 +14,9 @@
     height: 100%;
   }
   
+  /*************
+      Navbar   *
+  *************/
   #header{
     background: #1f1f1f;
     color: white;
@@ -53,6 +56,11 @@
     background-color: #D3E397;
     width: 100%;
   }
+
+
+  /****************
+        ABOUT     *
+  ****************/
   #welcome-section{
     display: flex;
     flex-direction: column;
@@ -71,22 +79,28 @@
     align-self: center;
     background-color: rgba(0,0,0,0.7);
     background-color: black;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 10px;
   }
   
   #projects{
     text-align: center;
-  /*   height: 100%; **/
     background-color: #ECF0F1;
     margin: -18px 0;
   }
   .project-box{
     /*border: 1px solid orange;*/
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .project-box{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .project-box > div > a > img{
+    width: 100%;
+    height: auto;
   }
   .project-tile{
     background-color: #1f1f1f;
@@ -95,7 +109,6 @@
     font-style: italic;
   }
   .flex-link{
-    flex: 0 1 40%;
     text-decoration: none; /*anchor tag decoration*/
     border: 1px solid black;
     margin: 40px 0px; 
@@ -153,8 +166,7 @@
     background-color: dodgerblue;
   }
   
-  
-  img{
+  #profile-photo{
     width: 20%;
     height: auto;
     border-radius: 50%;
@@ -197,6 +209,14 @@
     border-radius: 20%;
   }
   
+  /**********************
+  *  Common Properties  *
+  **********************/
+  #welcome-section,#projects,#contact{
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+  }
   
   @media screen and (max-width: 640px){
     #navbar ul{
