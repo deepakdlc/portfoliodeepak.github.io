@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+    font-size: 100%;
+
+
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body{
+    width:100%;
+    background: #0b44fd;
+
+}
+
+.wrapper{
+     width: 100%;
+     margin: 0 auto;
+}
+
+.navBar::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+h1{
+    color: #ffffff;
+    font-size: 48px;
+}
+
+p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+nav{
+    height: 70px;
+    line-height: 90px;
+
+}
+
+nav a img{
+    vertical-align: middle;
+    width: 90px;
+    height: 90px;
+}
+ 
+nav a:nth-child(2){
+    float: right;
+}
+
+
+header{
+    margin: 100px 0 200px 120px;
+    
+}
+
+header p{
+    width: 60%;
+    margin-top: 10px;
+
+}
+
+
+.work{
+    text-align: center;
+    width: 100%;
+}
+
+.work img{
+    margin: 1%;
+    width: 20%;
+
+}
+.header2{
+    margin: 130px 0 80px 40px;
+}
+
+.work2{
+    width: 100%;
+    text-align: center;
+}
+.work2 img{
+    margin: 1%;
+    width: 94%;
+}
+
+footer p{
+    margin: 60px auto;
+    text-align: center;
+    color: grey;
+}
+
+
+.aboutme img{
+    display: block;
+    border-radius: 50%;
+    margin: 2% auto auto auto;
+    width: 350px;
+    height: 350px;
+}
+
+.aboutme h1{
+    text-align: center;
+}
+.aboutme p{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px){
+    header{
+        text-align: left;
+        margin: 100px 0 100px 30px;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+    header p{
+        font-size: 26px;
+        width: 90%;
+    }
+    .work img{
+        margin: 2%;
+        width: 90%;
+    }
+
+    .header2{
+        margin: 130px 0 40px 12px;
+    }
+
+    .header2 h1{
+        font-size: 40px;
+    }
+
+    .header2 p{
+        font-size: 26px;
+        width: 90%;
+    }
+
+    .aboutme img{
+        width: 250px;
+    height: 250px;
+    }
+}
+
